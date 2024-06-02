@@ -1,9 +1,8 @@
 .app {
-  background-color: red;
-  width: 100%;
+  background-color: #0f1014;
   min-width: 375px;
-  max-width: 420px;
+  max-width: 450px;
   margin: auto;
-  height: 100vh;
+  max-height: 100vh;
   color: #505050;
 }
