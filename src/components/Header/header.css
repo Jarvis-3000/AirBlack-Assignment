@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  height: 124px;
+  background-image: url("../../assets/images//background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+}
+

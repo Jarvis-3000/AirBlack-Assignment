@@ -1,0 +1,29 @@
+.course-info {
+  padding: 12px 24px;
+}
+
+.course-info-heading {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.course-info-certi-rating {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.course-info-achievements {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 3px;
+  color: #d2d2d2;
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 400;
+}

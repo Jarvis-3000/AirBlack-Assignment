@@ -1,0 +1,13 @@
+.certificate-badge {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+  background-color: rgba(255, 255, 255, 0.14);
+  padding: 5.11px 11.08px 5.11px 11.08px;
+  color: #fafafa;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 14px;
+}

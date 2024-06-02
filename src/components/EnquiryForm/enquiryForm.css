@@ -1,0 +1,50 @@
+.enquiry-form-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.enquiry-form-heading {
+  background-color: #e84d84;
+  color: #ffffff;
+  height: 27px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.enquiry-form {
+  padding: 0px 10px;
+}
+
+.enquiry-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.enquiry-form-country-code {
+  display: flex;
+  margin-top: 11px;
+  gap: 10px;
+}
+
+.enquiry-form-country-code #select {
+  width: 90px;
+}
+
+.error {
+  color: red;
+  font-size: 13.56px;
+  margin-top: 10px;
+}
+
+.enquiry-form-submit {
+  margin-top: 20px;
+}

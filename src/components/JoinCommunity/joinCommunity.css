@@ -1,0 +1,29 @@
+.join-community {
+  height: fit-content;
+  background-image: url("../../assets/images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5f5f5;
+  padding: 62px 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.join-community .title {
+  width: 100%;
+  font-size: 24px;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17.35px;
+}
