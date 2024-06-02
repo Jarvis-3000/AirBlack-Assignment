@@ -6,7 +6,7 @@ import Label from "../Label/Label";
 const Input = ({
   label,
   placeholder,
-  type = "text",
+  type = "text", // Set default type to text
   value,
   onChange,
   required = false,
@@ -16,7 +16,7 @@ const Input = ({
     <div className="custom-input-container" id="custom-input">
       {label && <Label required={required} label={label} />}
       <input
-        type={type} // Set default type to text
+        type={type} 
         className="custom-input"
         value={value}
         placeholder={placeholder}

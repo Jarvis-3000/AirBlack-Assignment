@@ -6,6 +6,12 @@ import LinkedIn from "../../assets/icons/linkedin.svg";
 import Twitter from "../../assets/icons/twitter.svg";
 
 import GradientButton from "../common/GradientButton";
+import {
+  FACEBOOK_LINK,
+  INSTAGRAM_LINK,
+  LINKEDIN_LINK,
+  TWITTER_LINK,
+} from "../../utils/constants";
 
 function JoinCommunity() {
   return (
@@ -19,16 +25,16 @@ function JoinCommunity() {
       <GradientButton>Apply Now</GradientButton>
       {/* Social Media */}
       <div className="social-icons">
-        <a href="https://www.instagram.com/beauty.airblack" target="_blank">
+        <a href={INSTAGRAM_LINK} target="_blank">
           <img src={Instagram} alt="Instagram Icon" />
         </a>
-        <a href="https://www.facebook.com/beauty.airblack/" target="_blank">
+        <a href={FACEBOOK_LINK} target="_blank">
           <img src={Facebook} alt="Facebook icon" />
         </a>
-        <a href="https://www.linkedin.com/company/airblack/" target="_blank">
+        <a href={LINKEDIN_LINK} target="_blank">
           <img src={LinkedIn} alt="Linkedin icon" />
         </a>
-        <a href="https://x.com/clubairblack?lang=en" target="_blank">
+        <a href={TWITTER_LINK} target="_blank">
           <img src={Twitter} alt="Twitter icon" />
         </a>
       </div>

@@ -72,3 +72,8 @@ export const INDIAN_CITIES = [
 ];
 
 export const DEFAULT_COUNTRY_CODE = "+91";
+
+export const INSTAGRAM_LINK = "https://www.instagram.com/beauty.airblack";
+export const FACEBOOK_LINK = "https://www.facebook.com/beauty.airblack/";
+export const LINKEDIN_LINK = "https://www.linkedin.com/company/airblack/";
+export const TWITTER_LINK = "https://x.com/clubairblack?lang=en";
