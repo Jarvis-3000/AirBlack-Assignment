@@ -1,14 +1,17 @@
 # Introduction
 
-This is an Hiring Assignment from Airblack.
+This is a Hiring Assignment from Airblack. 
 
 # Features
 
-- This is a mobile based UI.
-- The Enquiry Form is intercative
-- Accesibility is maintained
+- This is a mobile-based UI.
+- The Enquiry Form is interactive
+- Accessibility is maintained
 - Social Media Links are functional
 - Modularized the components
+
+# Note
+> I have used some dummy data for the form to work.
 
 # Hosted
 
